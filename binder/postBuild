@@ -11,7 +11,7 @@ R -e "install.packages('fastmap', repos='http://cran.rstudio.com/')"
 # First install Bioconductor package manager
 # https://bioconductor.org/install/
 R -e "install.packages('BiocManager', repos='http://cran.rstudio.com/')"
-R -e "BiocManager::install()"
+R -e "BiocManager::install(update=FALSE)"
 
 # Then install required packages
 # Biostrings: Efficient manipulation of biological strings
