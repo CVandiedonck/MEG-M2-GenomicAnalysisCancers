@@ -1,0 +1,42 @@
+name: plasmabio-M1MEG_UE5_R
+# channels priority
+# see https://bioconda.github.io/
+# conda-forge has highest prioriy
+channels:
+  - defaults
+  - bioconda
+  - conda-forge
+dependencies:
+  # Jupyter dependencies
+  - jupyterhub>=1.5,<2
+  - jupyterlab>=3.2,<4
+  - jupyter-resource-usage
+  - jupyterlab-topbar
+  - jupyterlab-topbar-text
+  - jupyterlab-system-monitor
+  - nodejs
+  - pip
+  # Jupyter archive
+  # https://github.com/jupyterlab-contrib/jupyter-archive
+  - jupyter-archive
+  # R environment
+  - r-irkernel
+  - r-base>=4
+  - r-tidyverse
+  - r-rcpp
+  - r-factominer
+  - r-factoextra
+  - r-dt
+  - r-markdown
+  - r-tidyverse
+  - r-writexl
+  - r-readxl
+  - r-rcolorbrewer
+  - r-gplots
+  - r-statmod
+  # JupyterLab Variable inspector
+  # https://github.com/lckr/jupyterlab-variableInspector
+  - r-repr
+  - pip:
+  # - lckr-jupyterlab-variableinspector
+    - matplotlib
