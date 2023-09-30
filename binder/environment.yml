@@ -18,7 +18,7 @@ dependencies:
   - pip
   # Jupyter archive
   # https://github.com/jupyterlab-contrib/jupyter-archive
-  - jupyter-archive
+  - jupyter-archive=3.3.4
   # R environment
   - r-irkernel
   - r-base>=4
@@ -34,6 +34,8 @@ dependencies:
   - r-rcolorbrewer
   - r-gplots
   - r-statmod
+  - r-ggfortify
+  - r-ranger
   # JupyterLab Variable inspector
   # https://github.com/lckr/jupyterlab-variableInspector
   - r-repr
