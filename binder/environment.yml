@@ -21,7 +21,7 @@ dependencies:
   - jupyter-archive=3.3.4
   # R environment
   - r-irkernel
-  - r-base>=4
+  - r-base=4.2.0
   - r-tidyverse
   - r-rcpp
   - r-factominer
