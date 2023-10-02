@@ -34,7 +34,9 @@ getwd()
 
 
 ## To choose your working directory with an absolute path
-#setwd("//my/absolute/path/data/")
+#setwd("/my/absolute/path/data/") # on adenine, the absolute path should be like this "/srv/home/login/meg_m2_gac" with your won login.
+# alternatively, you can use the symbol "~" which stands for your home:
+#setwd("~/meg_m2_gac")
 
 
 ########################################################################
