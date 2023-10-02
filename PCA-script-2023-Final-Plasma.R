@@ -221,8 +221,8 @@ summary(res.pca, ncp=3, nbelements=Inf, file="pca-essai.txt" )
 # ncp argument gives the number of dimensions for which the summary is given
 # nbelements is the number of elements
 
-plot(res, choix = "ind", cex=0.6, invisible = "quali", habillage = "Diagnosis", select = "contrib 5")
-plot(res, choix = "ind", cex=0.6, invisible = "quali", habillage = "Diagnosis", select = "cos2 0.5")
+plot(res.pca, choix = "ind", cex=0.6, invisible = "quali", habillage = "Diagnosis", select = "contrib 5")
+plot(res.pca, choix = "ind", cex=0.6, invisible = "quali", habillage = "Diagnosis", select = "cos2 0.5")
 
 
 
